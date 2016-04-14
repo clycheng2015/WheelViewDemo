@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/layout_bg"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="Please enter PIN"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp">
+
+        <com.paic.demo.wheelviewdemo.widget.WheelView
+            android:id="@+id/passw_1"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+
+        <com.paic.demo.wheelviewdemo.widget.WheelView
+            android:id="@+id/passw_2"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+
+        <com.paic.demo.wheelviewdemo.widget.WheelView
+            android:id="@+id/passw_3"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+
+        <com.paic.demo.wheelviewdemo.widget.WheelView
+            android:id="@+id/passw_4"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+
+        <com.paic.demo.wheelviewdemo.widget.WheelView
+            android:id="@+id/passw_5"
+            android:layout_width="30dp"
+            android:layout_height="60dp" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/pwd_status"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="24dp"
+        android:text="00000"
+        android:textColor="@color/colorAccent"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/btn_mix"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="12dp"
+        android:text="   Mix  "
+        android:clickable="true"
+        android:textSize="18sp" />
+
+</LinearLayout>  
